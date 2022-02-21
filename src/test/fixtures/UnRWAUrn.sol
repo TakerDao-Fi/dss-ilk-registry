@@ -19,10 +19,10 @@
 
 pragma solidity >=0.5.12;
 
-import {Vat}              from 'dss/vat.sol';
-import {Jug}              from 'dss/jug.sol';
-import {Dai}              from 'dss/dai.sol';
-import {DaiJoin, GemJoin} from 'dss/join.sol';
+import {Vat}              from 'dss-core/vat.sol';
+import {Jug}              from 'dss-core/jug.sol';
+import {Dai}              from 'dss-core/dai.sol';
+import {DaiJoin, GemJoin} from 'dss-core/join.sol';
 
 contract UnRWAUrn {
     // --- auth ---
